@@ -4,15 +4,15 @@ function main(numOne, numTwo){
 
     var numOne = numOne;
     var numTwo = numTwo;
-    var product = numOne * numTwo;
-
+    var myQuotient = numOne / numTwo;
+    
     // Only change code above this lineno
 
-    return product;
+    return myQuotient;
 }
 
-console.log(main(2.5, 2.0)); // change this line
-console.log(main(5.5, 5.5));
-console.log(main(100.25, 43.20));
+console.log(main(5.0, 2.0)); // change this line
+console.log(main(16.5, 5.5));
+console.log(main(102.0, 25.5));
 
 module.exports = main;
